@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def fila_pedidos(comandos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(fila_pedidos(["pedido hamburguer", "pedido batata", "atender", "atender"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert fila_pedidos(["pedido hamburguer", "pedido batata", "atender", "atender"]) == ["hamburguer", "batata"]
+assert fila_pedidos(["pedido pizza", "atender"]) == ["pizza"]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

@@ -1,22 +1,24 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Prática:</strong> Reforce o conhecimento adquirido. Aplique as técnicas aprendidas e repita os exercícios até se sentir confiante.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Marta, a dona de um restaurante, está implementando um sistema para gerenciar os pedidos dos clientes. Ela quer usar uma fila para garantir que os pedidos sejam atendidos na ordem correta.
+Crie uma função que simule uma fila de pedidos de comida. A função deve permitir adicionar pedidos à fila e atender os pedidos na ordem em que foram feitos.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Uma lista de comandos, onde cada comando é uma string: "pedido <item>", "atender".
+
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista dos itens atendidos na ordem correta.
 </p>
 
 
@@ -32,11 +34,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    fila_pedidos(["pedido hamburguer", "pedido batata", "atender", "atender"]) >> ["hamburguer", "batata"]
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Filas</li>
+<li>Manipulação de Strings</li>
+<li>Controle de Fluxo e Iteração</li>
+<li>Lógicas de Condições e Decisões</li>
 </ul>
